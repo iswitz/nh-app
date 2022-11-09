@@ -1,0 +1,30 @@
+:root {
+    --main-color: #F05423;
+  }
+  #app #window {
+    display: grid;
+    gap: 1.5rem;
+    padding-block: 1rem;
+    width: 95%;
+    margin-inline: auto;
+  }
+  #app #main-menu {
+    align-items: center;
+    background-color: var(--main-color);
+    bottom: 0;
+    display: flex;  
+    gap: 5px;
+    padding: 5px;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+  }
+  #app #main-menu i {
+    color: #FFF;
+    cursor: pointer;
+    font-size: 1.5rem; 
+    flex-grow: 1;
+    text-align: center;
+    }nter;
+    }
